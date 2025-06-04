@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 7536)
+    (start_pass_no 8151)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -65,8 +65,8 @@
     )
   )
   (class "kicad_default"
-    MOT NCS SCLK "unconnected-(U1-NC-Pad4)" "Net-(U2-NRESET)" +3.3V "Net-(U2-VDDPIX)" MOSI
-    MISO "Net-(U2-LED_P)" "unconnected-(U2-NC-Pad6)" "unconnected-(U2-NC-Pad1)" "unconnected-(U2-NC-Pad2)" "unconnected-(U2-NC-Pad14)" "unconnected-(U2-NC-Pad16)"
+    MOT NCS SCLK "unconnected-(U1-NC-Pad4)" "Net-(U2-NRESET)" "Net-(U2-VDDPIX)" MOSI MISO
+    "Net-(U2-LED_P)" "unconnected-(U2-NC-Pad6)" "unconnected-(U2-NC-Pad1)" "unconnected-(U2-NC-Pad2)" "unconnected-(U2-NC-Pad14)" "unconnected-(U2-NC-Pad16)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
