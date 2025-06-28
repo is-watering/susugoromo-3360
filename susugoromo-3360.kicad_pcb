@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "SUSUGOROMO-3360")
-		(rev "1.1")
+		(rev "1.11")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -2731,24 +2731,24 @@
 		(sheetfile "susugoromo-3360.kicad_sch")
 		(attr through_hole)
 		(fp_circle
-			(center 1.1 0.6)
-			(end 1.4 0.6)
+			(center 0.5 -1.2)
+			(end 0.9 -1.2)
 			(stroke
 				(width 0.15)
-				(type default)
+				(type solid)
 			)
-			(fill none)
+			(fill solid)
 			(layer "F.SilkS")
 			(uuid "a75292ca-bdac-4094-9465-b75c166c0b67")
 		)
 		(fp_circle
-			(center -12.5 10.08)
-			(end -12.2 10.08)
+			(center -13.31 11.8)
+			(end -12.91 11.8)
 			(stroke
 				(width 0.15)
-				(type default)
+				(type solid)
 			)
-			(fill none)
+			(fill solid)
 			(layer "F.SilkS")
 			(uuid "064dd0af-d428-4c9a-b0ee-8047058fd9ea")
 		)
@@ -3834,7 +3834,7 @@
 		(layer "Edge.Cuts")
 		(uuid "03a6db66-6b5b-4ad5-a015-3ee34eeb5ee4")
 	)
-	(gr_text "SUSUGOROMO-3360 v1.1\n© 2025 is-watering\nBased on design by snize\n"
+	(gr_text "SUSUGOROMO-3360 v1.11\n© 2025 is-watering\nBased on design by snize\n"
 		(at 42.269391 41.135452 0)
 		(layer "B.SilkS")
 		(uuid "1394f481-ec09-420d-a9ad-197457000902")
