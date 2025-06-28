@@ -84,7 +84,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 44.659458 21.527039)
+		(grid_origin 22.467886 17.921154)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -2794,6 +2794,30 @@
 			(layer "Edge.Cuts")
 			(uuid "57e98a40-0bbc-4793-9a15-9d342888327e")
 		)
+		(fp_text user "16"
+			(at -0.85 12 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3843a069-044c-47d8-b823-11477cc4ad8c")
+			(effects
+				(font
+					(size 0.8 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "1"
+			(at -0.6 -1.2 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3b7b4e80-ec58-499e-b1f5-aa0c45cbde11")
+			(effects
+				(font
+					(size 0.8 0.6)
+					(thickness 0.15)
+				)
+			)
+		)
 		(fp_text user "Optical Center"
 			(at -2.850231 6.284008 180)
 			(layer "Cmts.User")
@@ -2817,7 +2841,7 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
+		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.2 1.2)
 			(drill 0.7)
@@ -2839,34 +2863,43 @@
 			(pintype "no_connect")
 			(uuid "2e67b198-4650-49cf-8532-7b3bb426a85c")
 		)
-		(pad "3" thru_hole circle
+		(pad "3" thru_hole roundrect
 			(at -3.56 0 180)
 			(size 1.2 1.2)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(roundrect_rratio 0)
+			(chamfer_ratio 0.2)
+			(chamfer top_left top_right bottom_left bottom_right)
 			(net 9 "Net-(U2-VDDPIX)")
 			(pinfunction "VDDPIX")
 			(pintype "power_out")
 			(uuid "a11f8dd2-ca00-4c8d-abc6-b5f9c39ef0a5")
 		)
-		(pad "4" thru_hole circle
+		(pad "4" thru_hole roundrect
 			(at -5.34 0 180)
 			(size 1.2 1.2)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(roundrect_rratio 0)
+			(chamfer_ratio 0.2)
+			(chamfer top_left top_right bottom_left bottom_right)
 			(net 2 "+1V9")
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(uuid "ba1a88b7-e052-4318-9570-a74f569a011e")
 		)
-		(pad "5" thru_hole circle
+		(pad "5" thru_hole roundrect
 			(at -7.12 0 180)
 			(size 1.2 1.2)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(roundrect_rratio 0)
+			(chamfer_ratio 0.2)
+			(chamfer top_left top_right bottom_left bottom_right)
 			(net 3 "+3V3")
 			(pinfunction "VDDIO")
 			(pintype "power_in")
@@ -2894,7 +2927,7 @@
 			(pintype "input")
 			(uuid "a3258b46-3a6f-4655-a002-cd2ac7a2fd11")
 		)
-		(pad "8" thru_hole circle
+		(pad "8" thru_hole rect
 			(at -12.46 0 180)
 			(size 1.2 1.2)
 			(drill 0.7)
@@ -3857,6 +3890,72 @@
 			)
 			(justify left bottom mirror)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "08ac0fd0-6e14-46d3-a2df-f9e63afa781b")
+		(pts
+			(xy 20.46704 14.919288) (xy 50.46704 14.919288)
+		)
+		(height 0)
+		(gr_text "30.0000 mm"
+			(at 35.46704 13.769288 0)
+			(layer "Cmts.User")
+			(uuid "08ac0fd0-6e14-46d3-a2df-f9e63afa781b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "57cfaddb-2d29-45bc-af33-89379c1b7f78")
+		(pts
+			(xy 17.467886 17.921154) (xy 17.467886 43.921154)
+		)
+		(height 0)
+		(gr_text "26.0000 mm"
+			(at 16.317886 30.921154 90)
+			(layer "Cmts.User")
+			(uuid "57cfaddb-2d29-45bc-af33-89379c1b7f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 45.7783 38.5394)
